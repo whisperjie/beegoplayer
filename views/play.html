@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    <script src="/static/js/popper.min.js"></script>
+    <script src="/static/js/jquery.slim.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="">
+        <div >
+            <img src="{{.song.Pic}}" alt="">
+            <p>{{.song.Name}}</p>
+            <p>{{.song.Artist}}</p>
+        </div>
+    <audio src="{{.url}}" controls autoplay></audio>
+    </div>
+    <div>{{.irc}}</div>
+</div>
+</body>
+</html>

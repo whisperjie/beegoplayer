@@ -7,4 +7,7 @@ import (
 
 func init() {
     beego.Router("/", &controllers.MainController{})
+	beego.Router("/query", &controllers.QueryController{})
+	beego.Router("/play", &controllers.PlayController{})
+
 }

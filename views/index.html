@@ -13,7 +13,68 @@
 </head>
 <body>
 <h1 class="text-lg-left text-primary">My Player</h1>
-
+<div class="container">
+    <div>
+        <input type="text" name="keyword" id="kaka">
+        <button class="btn-primary" id="yaya" onclick="getResults(op='next');">搜寻</button>
+    </div>
+    <div id="caocao">
+        <button onclick="getResults(op='next');"  id="next">下一页</button>
+        <button onclick="getResults(op='last');" id="last">上一页</button>
+    </div>
+    <table class="table-striped" id="fafa">
+        <tr>
+            <th>索引</th>
+            <th>歌手</th>
+            <th>歌曲名</th>
+            <th>播放</th>
+        </tr>
+    </table>
+</div>
 
 </body>
+<script>
+    var a=0;
+   function getResults(op) {
+       $("#fafa>tbody").html("");
+       var keyword=$("#kaka").val();
+       if(a<0){
+        $("#last").hidden
+           return;
+       }
+       if (keyword==""){
+           alert("未输入关键词");
+           return
+       }
+       if (op=="next"){
+           a++
+       }else {
+           a--
+       }
+       var link="query?keyword="+keyword+"?page="+a;
+       var xhr=new XMLHttpRequest();
+
+       xhr.open("GET",link,true);
+       xhr.onreadystatechange=function () {
+           if (xhr.readyState==4&&xhr.status==200){
+               res=xhr.responseText;
+               var o=JSON.parse(res);
+               for (var i in o){
+                   var id=o[i].MUSICRID.substring(6,o[i].MUSICRID.length)
+                   console.log(id)
+                   mylink="/play?id="+id
+                   index=parseInt(i)+10*a-10
+                   var trstr=`<tr>
+                                <td>${index}</td>
+                                <td>${o[i].ARTIST}</td>
+                                <td>${o[i].SONGNAME}</td>
+                                <td><a href='${mylink}'>播放</a></td>
+                            </tr>`;
+                   $("#fafa").append(trstr);
+               }
+           }
+       }
+       xhr.send();
+   }
+</script>
 </html>
