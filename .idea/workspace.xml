@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5a696fd-84d3-49f8-8707-1c7474c4427b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/controllers/play.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/query.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/font/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/font/iconfont.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/img_no.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lrc/gaobaiqiqiu.lrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structs/song.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/play.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/default.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/default.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/player.exe" beforeDir="false" afterPath="$PROJECT_DIR$/player.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/router.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/play.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+            <state relative-caret-position="336">
+              <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -153,8 +136,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="637" />
-    <option name="y" value="30" />
+    <option name="x" value="795" />
+    <option name="y" value="37" />
     <option name="width" value="1303" />
     <option name="height" value="1088" />
   </component>
@@ -274,16 +257,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="510" y="24" width="1042" height="870" extended-state="0" />
-    <editor active="true" />
+    <frame x="636" y="30" width="1042" height="870" extended-state="0" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24593496" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24593496" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" weight="0.3297587" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32655826" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32655826" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297587" />
@@ -519,8 +501,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/play.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        <state relative-caret-position="336">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
         </state>
       </provider>
     </entry>
